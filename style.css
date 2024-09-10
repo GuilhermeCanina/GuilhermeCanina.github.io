@@ -1,0 +1,170 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #ddd;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Seção de introdução */
+.intro {
+    text-align: center;
+    margin-top: 60px; /* Ajuste conforme a altura do cabeçalho fixo */
+    padding: 20px;
+}
+
+.glow-text {
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.role {
+    font-size: 1.2em;
+    color: #999;
+}
+
+/* Cabeçalho */
+.header {
+    background-color: #222;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #444;
+    transform: translateY(-3px);
+}
+
+/* Adiciona margem superior ao conteúdo para compensar a altura do cabeçalho fixo */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Outras seções e estilos */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Projetos */
+.work-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work-item {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.work-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+/* Linguagens */
+.languages-section {
+    padding: 60px 20px;
+}
+
+.languages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.language-item {
+    text-align: center;
+    width: 150px;
+}
+
+.language-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.language-item img:hover {
+    transform: scale(1.1);
+}
+
+.language-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #ddd;
+}
+
+.neon-btn {
+    padding: 15px 30px;
+    background-color: #111;
+    color: #6D83F2;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 2px solid #6D83F2;
+    border-radius: 50px;
+    transition: box-shadow 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px; 
+}
+
+.neon-btn:hover {
+    box-shadow: 0 0 20px #6D83F2, 0 0 40px #6D83F2, 0 0 60px #6D83F2;
+}
+
+.cv-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cv-section p {
+    margin-bottom: 30px; 
+}
+
+.language-item{
+    padding-top: 20px;
+}
