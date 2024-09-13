@@ -17,7 +17,7 @@ body, html {
 /* Seção de introdução */
 .intro {
     text-align: center;
-    margin-top: 60px; /* Ajuste conforme a altura do cabeçalho fixo */
+    margin-top: 60px; /
     padding: 20px;
 }
 
@@ -80,7 +80,7 @@ body, html {
     text-align: center;
 }
 
-/* Projetos */
+
 .work-grid {
     display: flex;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ body, html {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
 }
 
-/* Linguagens */
+
 .languages-section {
     padding: 60px 20px;
 }
