@@ -7,12 +7,13 @@
 body {
   font-family: 'Fira Sans', sans-serif; 
   line-height: 1.6;
-  color: #333;
-  background: #f9f9f9;
+  background: #121212;
+  color: #f1f1f1;
+  transition: background 0.4s, color 0.4s;
 }
 
 header {
-  background: #1a1a1a;
+  background: #000;
   color: #fff;
   padding: 1.2rem 2rem;
   display: flex;
@@ -21,6 +22,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  transition: background 0.4s, color 0.4s;
 }
 
 header h1 {
@@ -37,13 +39,14 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  
+  color: #bb86fc;
   font-weight: 400;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #00adb5;
+  color: #9a67d1;
 }
 
 section {
@@ -55,14 +58,16 @@ section {
 section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  border-left: 5px solid #00adb5;
+  border-left: 5px solid #bb86fc;
   padding-left: 10px;
-  color: #222;
+  color: #fff;
+  transition: color 0.4s, border-color 0.4s;
 }
 
 section p {
   margin-bottom: 1rem;
-  color: #444;
+  color: #bb86fc;
+  transition: color 0.4s;
 }
 
 section ul {
@@ -71,12 +76,12 @@ section ul {
 }
 
 section ul li {
-  background: #fff;
+  background: #1e1e1e;
   padding: 1rem;
   margin-bottom: 10px;
   border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  box-shadow: 0px 2px 5px rgba(255,255,255,0.1);
+  transition: transform 0.3s, background 0.4s, color 0.4s;
 }
 
 section ul li:hover {
@@ -89,7 +94,7 @@ section:last-of-type ul li {
 }
 
 section:last-of-type a {
-  color: #00adb5;
+  color: #bb86fc;
   font-weight: 600;
   text-decoration: none;
 }
@@ -119,12 +124,13 @@ section:last-of-type a:hover {
 }
 
 .project-card {
-  background: #fff;
+  background: #1e1e1e;
   border-radius: 10px;
-  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 6px rgba(255,255,255,0.1);
   padding: 1rem;
-  transition: transform 0.3s;
+  transition: transform 0.3s, background 0.4s, color 0.4s;
   text-align: center;
+  color: #f1f1f1;
 }
 
 .project-card:hover {
@@ -148,14 +154,15 @@ section:last-of-type a:hover {
   margin: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 6px;
-  background: #00adb5;
-  color: #fff;
+  background: #bb86fc;
+  color: #000;
   text-decoration: none;
   transition: background 0.3s;
 }
 
 .project-card a:hover {
-  background: #007b80;
+  background: #9a67d1;
+  color: #fff;
 }
 
 .skills-grid {
@@ -167,16 +174,16 @@ section:last-of-type a:hover {
 }
 
 .skill {
-  background: #fff;
+  background: #1e1e1e;
   padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 3px 6px rgba(255,255,255,0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.4s, color 0.4s;
 }
 
 .skill:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 10px rgba(255,255,255,0.2);
 }
 
 .skill img {
@@ -187,50 +194,47 @@ section:last-of-type a:hover {
 
 .skill p {
   font-weight: 500;
+  color: #bb86fc;
+}
+
+
+body.light-mode {
+  background: #f9f9f9;
   color: #333;
 }
 
-body.dark-mode {
-  background: #121212;
-  color: #f1f1f1;
-}
-
-body.dark-mode header {
-  background: #000;
-}
-
-body.dark-mode section h2 {
+body.light-mode header {
+  background: #1a1a1a;
   color: #fff;
-  border-left: 5px solid #bb86fc;
 }
 
-body.dark-mode .project-card,
-body.dark-mode .skill {
-  background: #1e1e1e;
-  color: #f1f1f1;
-  box-shadow: 0px 2px 6px rgba(255,255,255,0.1);
+body.light-mode section h2 {
+  color: #222;
+  border-left: 5px solid #00adb5;
 }
 
-body.dark-mode .project-card a,
-body.dark-mode .skill p {
-  color: #bb86fc;
+body.light-mode .project-card,
+body.light-mode .skill {
+  background: #fff;
+  color: #333;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
 }
 
-body.dark-mode p {
-  color: #bb86fc;
+body.light-mode p {
+  color: #444;
 }
 
-body.dark-mode nav a {
-  color: #bb86fc;
+body.light-mode nav a {
+  color: #fff;
 }
 
-body.dark-mode .btn-scroll {
-  background: #bb86fc;
-  color: #000;
+body.light-mode .btn-scroll {
+  background: #000;
+  color: #fff;
 }
 
-body.dark-mode .btn-scroll:hover {
-  background: #9a67d1;
+body.light-mode .btn-scroll:hover {
+  background: #444;
   color: #fff;
 }
 
@@ -284,7 +288,6 @@ footer a:hover {
   margin: 0 !important;      
   max-width: 100% !important; 
   position: relative;
-
 }
 
 .intro-section::before {
@@ -350,4 +353,19 @@ footer a:hover {
 
 .intro-section.hide-gif {
   background: none !important;
+}
+
+#typing {
+  font-family: 'Fira Sans';
+  font-size: 36px; 
+  white-space: pre;
+  border-right: 2px solid black;
+  padding-right: 5px;
+  display: inline-block;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
 }
