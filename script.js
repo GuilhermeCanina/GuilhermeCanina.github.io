@@ -1,6 +1,6 @@
 document.addEventListener("keydown", function(event) {
     if (event.key === "m" && event.ctrlKey) {
-        document.body.classList.toggle("dark-mode");
+        document.body.classList.toggle("light-mode");
         console.log("Você descobriu o modo escuro, curioso!!");
     }
 });
