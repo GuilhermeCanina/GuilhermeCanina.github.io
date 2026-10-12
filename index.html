@@ -1,115 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guilherme Canina - Portfólio</title>
+    <meta name="description" content="Portfólio de Guilherme Canina, desenvolvedor de software com experiência em aplicações web, APIs REST e integração de sistemas.">
+    <meta name="theme-color" content="#121212">
+    <title>Guilherme Canina | Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <header>
-        <h1>Guilherme Canina</h1>
-        <nav>
+        <h1 title="Clique para descobrir uma coisa">Guilherme Canina</h1>
+        <nav aria-label="Navegação principal">
             <ul>
                 <li><a href="#projects">Projetos</a></li>
+                <li><a href="#certifications">Certificações</a></li>
+                <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <section id="intro" class="intro-section" aria-labelledby="intro-title">
+            <div class="intro-content">
+                <h2 id="intro-title">Olá, eu sou Guilherme</h2>
+                <p>Desenvolvedor de software com experiência em aplicações web, APIs REST e integração de sistemas.</p>
+                <a href="#projects" class="btn-scroll">Ver meus projetos ↓</a>
+            </div>
+        </section>
 
-<section id="intro" class="intro-section"> 
-    <div class="intro-content">
-         <h1>Olá, eu sou Guilherme</h1> 
-         <p>Desenvolvedor Back e Front em formação. Bem-vindo ao meu portfólio!</p> 
-         <a href="#projects" class="btn-scroll">Ver meus projetos ↓</a> 
-    </div> 
-</section>
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">Sobre mim</h2>
+            <p>Sou estudante de Ciência da Computação e desenvolvedor de software. Tenho experiência profissional no desenvolvimento de aplicações web, APIs REST e sincronização de dados entre sistemas. Gosto de entender os problemas por trás de cada funcionalidade e transformar ideias em soluções úteis — sempre aprendendo e evoluindo no processo.</p>
+        </section>
 
-    <section>
-        <h2>Sobre Mim</h2>
-        <p>Olá! Eu sou Guilherme Canina, apaixonado por tecnologia e desenvolvimento web.
-            Estou sempre em busca de novos desafios para aprender e criar projetos que unem design e funcionalidade.
-            Bem-vindo ao meu portfólio — explore e conheça meus trabalhos!</p>
-    </section>
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projetos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>SynapLearn</h3>
+                    <p>Projeto de TCC do SENAI: uma plataforma gamificada para ajudar estudantes a organizar os estudos, acompanhar o progresso e usar recursos de IA.</p>
+                    <a href="https://github.com/GuilhermeCanina/TCC-Senai2025" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://synaplearn.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
+                </article>
 
-   <section id="projects">
-  <h2>Projetos</h2>
-  <div class="projects-grid">
-    <div class="project-card">
-      <h3>TCC Senai 2025</h3>
-      <p>Um site que auxilia estudantes a se organizarem usando IA e relatórios.</p>
-      <a href="https://github.com/GuilhermeCanina/TCC-Senai2025" target="_blank">GitHub</a>
-      <a href="https://synaplearn.vercel.app/" target="_blank">Site</a>
-    </div>
+                <article class="project-card">
+                    <h3>Manga Reader</h3>
+                    <p>Aplicação web para consultar e ler mangás, integrando uma API pública para obter os dados.</p>
+                    <a href="https://github.com/GuilhermeCanina/Manga-reader" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </article>
 
-    <div class="project-card">
-      <h3>Manga-Reader</h3>
-      <p>Leitor de Manga web, feito com API publica.</p>
-      <a href="https://github.com/GuilhermeCanina/Manga-reader">GitHub</a>
-    </div>
+                <article class="project-card">
+                    <h3>Delivery</h3>
+                    <p>Projeto de delivery desenvolvido para praticar a criação de uma interface web e o fluxo de pedidos de uma lanchonete.</p>
+                    <a href="https://github.com/GuilhermeCanina/pfe1-projeto-lanchonete-delivery-2025" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://guilhermecanina.github.io/pfe1-projeto-lanchonete-delivery-2025/pages/home.html" target="_blank" rel="noopener noreferrer">Site</a>
+                </article>
+            </div>
+        </section>
 
-    <div class="project-card">
-      <h3>Delivery</h3>
-      <p>Projeto de Delivery, para auxiliar no controle de Pedidos.</p>
-      <a href="https://github.com/GuilhermeCanina/pfe1-projeto-lanchonete-delivery-2025">GitHub</a>
-      <a href="https://guilhermecanina.github.io/pfe1-projeto-lanchonete-delivery-2025/pages/home.html" target="_blank">Site</a>
-    </div>
-  </div>
-</section>
+        <section id="certifications" aria-labelledby="certifications-title">
+            <h2 id="certifications-title">Certificações</h2>
+            <article class="certification-card">
+                <img
+                    class="certification-badge"
+                    src="img/aws-data-visualization-demonstrated.png"
+                    alt="Medalha AWS Microcredential: Data Visualization Demonstrated"
+                    width="340"
+                    height="340"
+                    loading="lazy"
+                    decoding="async"
+                >
+                <div class="certification-info">
+                    <h3>AWS Data Visualization Demonstrated</h3>
+                    <p class="certification-issuer">AWS Training and Certification · 8 out. 2026</p>
+                    <p>Microcredencial obtida em uma avaliação prática de visualização de dados usando serviços da AWS.</p>
+                </div>
+            </article>
+        </section>
 
-    
-<section id="skills">
-  <h2>Habilidades</h2>
-  <div class="skills-grid">
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-      <p>HTML</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-      <p>CSS</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-      <p>JavaScript</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
-      <p>React</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
-      <p>Node.js</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
-      <p>MySQL</p>
-    </div>
-    <div class="skill">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-      <p>Git</p>
-    </div>
-  </div>
-</section>
+        <section id="skills" aria-labelledby="skills-title">
+            <h2 id="skills-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" loading="lazy">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" loading="lazy">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" loading="lazy">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" loading="lazy">
+                    <p>TypeScript</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" loading="lazy">
+                    <p>React</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" loading="lazy">
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="" loading="lazy">
+                    <p>C#</p>
+                </div>
+                <div class="skill">
+                    <span class="skill-symbol" aria-hidden="true">SQL</span>
+                    <p>SQL Server</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" loading="lazy">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" loading="lazy">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" loading="lazy">
+                    <p>Git</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contato</h2>
+            <p>Quer conversar sobre tecnologia ou algum projeto? Me encontre por aqui:</p>
+            <ul class="contact-links">
+                <li><a href="mailto:caninaguilherme33@gmail.com">E-mail</a></li>
+                <li><a href="https://www.linkedin.com/in/guilhermecanina/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/GuilhermeCanina" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.instagram.com/gui7337_/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
 
-    <section>
-        <h2>Contato</h2>
-        <p>Você pode me encontrar nas seguintes redes sociais:</p>
-        <ul>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="https://github.com/GuilhermeCanina">GitHub</a></li>
-            <li><a href="https://www.instagram.com/gui7337_/">Instagram</a></li>
-        </ul>
-    </section>
-    <footer>
-        <p>&copy; 2025 Guilherme Canina. Todos os direitos reservados.</p>
-        <p>Feito com ❤ por Guilherme Canina</p>
+    <footer title="Psst... clica aqui">
+        <p>&copy; <span id="current-year">2026</span> Guilherme Canina. Todos os direitos reservados.</p>
+        <p>Feito com <span aria-label="amor">♥</span> por Guilherme Canina</p>
     </footer>
 
     <script src="script.js"></script>
