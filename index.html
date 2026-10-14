@@ -3,153 +3,314 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Guilherme Canina, desenvolvedor de software com experiência em aplicações web, APIs REST e integração de sistemas.">
+    <meta name="description" content="Portfólio de Guilherme Canina: desenvolvedor de software com experiência em aplicações web e mobile, C#, React, TypeScript, Node.js, APIs REST e bancos de dados.">
     <meta name="theme-color" content="#121212">
-    <title>Guilherme Canina | Portfólio</title>
+    <meta name="author" content="Guilherme Canina">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://guinino.dev.br/">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Guilherme Canina | Portfólio">
+    <meta property="og:title" content="Guilherme Canina | Desenvolvedor Full Stack">
+    <meta property="og:description" content="Experiência profissional, projetos de software e credenciais em desenvolvimento web, mobile, APIs e backend.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://guinino.dev.br/">
+    <meta property="og:image" content="https://guinino.dev.br/img/lain-still.webp">
+    <meta property="og:image:alt" content="Arte em tons escuros e roxos usada no portfólio de Guilherme Canina">
+    <meta property="og:image:width" content="507">
+    <meta property="og:image:height" content="357">
+    <meta name="twitter:image" content="https://guinino.dev.br/img/lain-still.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Guilherme Canina | Desenvolvedor Full Stack">
+    <meta name="twitter:description" content="Experiência profissional, projetos de software e tecnologias com que trabalho.">
+    <title>Guilherme Canina | Desenvolvedor Full Stack</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Guilherme Canina",
+      "url": "https://guinino.dev.br/",
+      "jobTitle": "Desenvolvedor de Software",
+      "email": "mailto:caninaguilherme33@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amparo",
+        "addressRegion": "SP",
+        "addressCountry": "BR"
+      },
+      "sameAs": [
+        "https://github.com/GuilhermeCanina",
+        "https://www.linkedin.com/in/guilhermecanina/",
+        "https://www.instagram.com/gui7337_/"
+      ],
+      "knowsAbout": ["C#", "TypeScript", "JavaScript", "React", "Node.js", "APIs REST", "SQL", "Desenvolvimento Full Stack"]
+    }
+    </script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
+
     <header>
-        <h1 title="Clique para descobrir uma coisa">Guilherme Canina</h1>
+        <h1 title="Clique para descobrir uma coisa">
+            <button class="name-easter-egg" type="button" aria-label="Revelar easter egg do nome" aria-pressed="false">Guilherme Canina</button>
+        </h1>
         <nav aria-label="Navegação principal">
             <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#education">Formação</a></li>
                 <li><a href="#projects">Projetos</a></li>
-                <li><a href="#certifications">Certificações</a></li>
+                <li><a href="#certifications">Credenciais</a></li>
                 <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="main-content">
         <section id="intro" class="intro-section" aria-labelledby="intro-title">
             <div class="intro-content">
+                <p class="intro-eyebrow">DESENVOLVIMENTO DE SOFTWARE</p>
                 <h2 id="intro-title">Olá, eu sou Guilherme</h2>
-                <p>Desenvolvedor de software com experiência em aplicações web, APIs REST e integração de sistemas.</p>
-                <a href="#projects" class="btn-scroll">Ver meus projetos ↓</a>
+                <p>Desenvolvedor de software com experiência em aplicações web e mobile, backend em C#, APIs REST e integração com bancos de dados.</p>
+                <ul class="intro-stack" aria-label="Tecnologias em destaque">
+                    <li>C#</li><li>React</li><li>TypeScript</li><li>Node.js</li><li>APIs REST</li>
+                </ul>
+                <div class="intro-actions">
+                    <a href="#projects" class="btn-scroll">Ver projetos <span aria-hidden="true">↓</span></a>
+                    <a href="docs/curriculo-guilherme-canina.pdf" class="btn-secondary" download aria-label="Baixar currículo de Guilherme Canina em PDF">Baixar currículo <span aria-hidden="true">↓</span></a>
+                    <a href="https://github.com/GuilhermeCanina" class="btn-tertiary" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                </div>
             </div>
         </section>
 
         <section id="about" aria-labelledby="about-title">
             <h2 id="about-title">Sobre mim</h2>
-            <p>Sou estudante de Ciência da Computação e desenvolvedor de software. Tenho experiência profissional no desenvolvimento de aplicações web, APIs REST e sincronização de dados entre sistemas. Gosto de entender os problemas por trás de cada funcionalidade e transformar ideias em soluções úteis — sempre aprendendo e evoluindo no processo.</p>
+            <p>Sou estudante de Ciência da Computação na UniFAJ e formado como Técnico em Desenvolvimento de Sistemas pelo SENAI. Tenho experiência profissional no desenvolvimento de aplicações web e mobile, backend em C#, APIs REST e integração com bancos de dados.</p>
+            <p>Nos projetos, trabalho com tecnologias como React, TypeScript, Node.js e SQL. Gosto de entender o problema por trás de cada funcionalidade, colaborar com outras pessoas e transformar requisitos em soluções práticas. Também tenho interesse em cloud e aplicações com inteligência artificial.</p>
+            <div class="about-tags" aria-label="Áreas de atuação">
+                <span class="tag">Full Stack</span>
+                <span class="tag">APIs REST</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Cloud &amp; IA</span>
+            </div>
+        </section>
+
+        <section id="experience" aria-labelledby="experience-title">
+            <h2 id="experience-title">Experiência profissional</h2>
+            <div class="experience-list">
+                <article class="experience-card">
+                    <div class="experience-heading">
+                        <div>
+                            <h3>Desenvolvedor Full Stack</h3>
+                            <p class="experience-company">Build Solution</p>
+                        </div>
+                        <p class="experience-period">mar. 2026 – set. 2026</p>
+                    </div>
+                    <ul class="experience-points">
+                        <li>Desenvolvi telas e funcionalidades para um aplicativo mobile de força de vendas.</li>
+                        <li>Atuei no backend em C#, implementando e ajustando endpoints de API.</li>
+                        <li>Trabalhei com integração ao banco de dados, testes e correções até a preparação para publicação.</li>
+                    </ul>
+                    <p class="experience-outcome">Entrega: aplicativo publicado na Google Play.</p>
+                    <ul class="tag-list" aria-label="Tecnologias utilizadas">
+                        <li class="tag">C#</li>
+                        <li class="tag">APIs REST</li>
+                        <li class="tag">SQL</li>
+                        <li class="tag">Mobile</li>
+                    </ul>
+                </article>
+
+                <article class="experience-card">
+                    <div class="experience-heading">
+                        <div>
+                            <h3>Aprendiz em Desenvolvimento de Sistemas</h3>
+                            <p class="experience-company">FILO S/A</p>
+                        </div>
+                        <p class="experience-period">out. 2024 – dez. 2025</p>
+                    </div>
+                    <p>Experiência de aprendizagem na área de Desenvolvimento de Sistemas, em paralelo à formação técnica no SENAI.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="education" aria-labelledby="education-title">
+            <h2 id="education-title">Formação acadêmica</h2>
+            <div class="education-grid">
+                <article class="education-card">
+                    <p class="education-kind">GRADUAÇÃO · EM ANDAMENTO</p>
+                    <h3>Ciência da Computação</h3>
+                    <p class="education-institution">Centro Universitário de Jaguariúna (UniFAJ)</p>
+                    <p class="education-period">fev. 2026 – atual</p>
+                </article>
+                <article class="education-card">
+                    <p class="education-kind">FORMAÇÃO TÉCNICA · CONCLUÍDA</p>
+                    <h3>Técnico em Desenvolvimento de Sistemas</h3>
+                    <p class="education-institution">SENAI</p>
+                    <p class="education-period">jan. 2024 – dez. 2025</p>
+                </article>
+            </div>
         </section>
 
         <section id="projects" aria-labelledby="projects-title">
-            <h2 id="projects-title">Projetos</h2>
+            <h2 id="projects-title">Projetos em destaque</h2>
+            <p class="section-intro">Projetos acadêmicos e pessoais que demonstram experiência com interfaces, APIs, backend e integração de dados.</p>
+
+            <article class="case-study-card" aria-labelledby="sales-app-title">
+                <div class="case-study-topline">
+                    <span class="project-type">Estudo de caso profissional</span>
+                    <span class="case-study-period">Build Solution · 2026</span>
+                </div>
+                <h3 id="sales-app-title">Aplicativo de força de vendas</h3>
+                <p class="case-study-lead">Participação no desenvolvimento de uma aplicação mobile voltada à rotina de equipes de vendas, com trabalho tanto na interface quanto na camada de backend.</p>
+                <div class="case-study-grid">
+                    <div class="case-study-detail">
+                        <h4>Minha contribuição</h4>
+                        <p>Desenvolvimento de telas e funcionalidades mobile, implementação e ajuste de endpoints em C# e integração com banco de dados.</p>
+                    </div>
+                    <div class="case-study-detail">
+                        <h4>Entrega</h4>
+                        <p>Participação em testes, correções e preparação para publicação. O aplicativo foi publicado na Google Play.</p>
+                    </div>
+                </div>
+                <ul class="tag-list" aria-label="Tecnologias e áreas do projeto">
+                    <li class="tag">C#</li><li class="tag">APIs REST</li><li class="tag">SQL</li><li class="tag">Mobile</li>
+                </ul>
+                <p class="case-study-note">Estudo de caso resumido: nomes de clientes, dados internos e detalhes proprietários não são exibidos.</p>
+            </article>
+
             <div class="projects-grid">
                 <article class="project-card">
+                    <div class="project-topline"><span class="project-type">TCC · SENAI</span><span class="project-index" aria-hidden="true">01</span></div>
                     <h3>SynapLearn</h3>
-                    <p>Projeto de TCC do SENAI: uma plataforma gamificada para ajudar estudantes a organizar os estudos, acompanhar o progresso e usar recursos de IA.</p>
-                    <a href="https://github.com/GuilhermeCanina/TCC-Senai2025" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://synaplearn.vercel.app/" target="_blank" rel="noopener noreferrer">Site</a>
+                    <p>Plataforma gamificada de estudos para organizar sessões, acompanhar o progresso e oferecer recursos de IA. Desenvolvida como projeto de conclusão do curso técnico.</p>
+                    <ul class="tag-list" aria-label="Tecnologias do SynapLearn">
+                        <li class="tag">React</li><li class="tag">Node.js</li><li class="tag">Express</li><li class="tag">Prisma</li><li class="tag">SQL</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/GuilhermeCanina/TCC-Senai2025" target="_blank" rel="noopener noreferrer">Código no GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://synaplearn.vercel.app/" target="_blank" rel="noopener noreferrer">Abrir projeto <span aria-hidden="true">↗</span></a>
+                    </div>
                 </article>
 
                 <article class="project-card">
+                    <div class="project-topline"><span class="project-type">Aplicação web</span><span class="project-index" aria-hidden="true">02</span></div>
                     <h3>Manga Reader</h3>
-                    <p>Aplicação web para consultar e ler mangás, integrando uma API pública para obter os dados.</p>
-                    <a href="https://github.com/GuilhermeCanina/Manga-reader" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <p>Projeto de leitura e consulta de mangás com dados obtidos por uma API pública. Foco na construção da interface e na integração com serviços externos.</p>
+                    <ul class="tag-list" aria-label="Tecnologias do Manga Reader">
+                        <li class="tag">React</li><li class="tag">JavaScript</li><li class="tag">API</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/GuilhermeCanina/Manga-reader" target="_blank" rel="noopener noreferrer">Código no GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://leitordemanga.vercel.app/" target="_blank" rel="noopener noreferrer">Abrir aplicação <span aria-hidden="true">↗</span></a>
+                    </div>
                 </article>
 
                 <article class="project-card">
+                    <div class="project-topline"><span class="project-type">Front-end</span><span class="project-index" aria-hidden="true">03</span></div>
                     <h3>Delivery</h3>
-                    <p>Projeto de delivery desenvolvido para praticar a criação de uma interface web e o fluxo de pedidos de uma lanchonete.</p>
-                    <a href="https://github.com/GuilhermeCanina/pfe1-projeto-lanchonete-delivery-2025" target="_blank" rel="noopener noreferrer">GitHub</a>
-                    <a href="https://guilhermecanina.github.io/pfe1-projeto-lanchonete-delivery-2025/pages/home.html" target="_blank" rel="noopener noreferrer">Site</a>
+                    <p>Interface web para pedidos de uma lanchonete, com fluxo de pedidos e armazenamento local no navegador. Projeto de prática com foco em front-end.</p>
+                    <ul class="tag-list" aria-label="Tecnologias do Delivery">
+                        <li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">JavaScript</li><li class="tag">LocalStorage</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/GuilhermeCanina/pfe1-projeto-lanchonete-delivery-2025" target="_blank" rel="noopener noreferrer">Código no GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://guilhermecanina.github.io/pfe1-projeto-lanchonete-delivery-2025/pages/home.html" target="_blank" rel="noopener noreferrer">Abrir projeto <span aria-hidden="true">↗</span></a>
+                    </div>
                 </article>
             </div>
         </section>
 
         <section id="certifications" aria-labelledby="certifications-title">
-            <h2 id="certifications-title">Certificações</h2>
-            <article class="certification-card">
-                <img
-                    class="certification-badge"
-                    src="img/aws-data-visualization-demonstrated.png"
-                    alt="Medalha AWS Microcredential: Data Visualization Demonstrated"
-                    width="340"
-                    height="340"
-                    loading="lazy"
-                    decoding="async"
-                >
-                <div class="certification-info">
-                    <h3>AWS Data Visualization Demonstrated</h3>
-                    <p class="certification-issuer">AWS Training and Certification · 8 out. 2026</p>
-                    <p>Microcredencial obtida em uma avaliação prática de visualização de dados usando serviços da AWS.</p>
-                </div>
-            </article>
+            <h2 id="certifications-title">Certificações e credenciais</h2>
+            <p class="section-intro">Credenciais e formações complementares relacionadas a tecnologia e desenvolvimento.</p>
+            <div class="certifications-grid">
+                <article class="certification-card">
+                    <img
+                        class="certification-badge"
+                        src="img/aws-data-visualization-demonstrated.png"
+                        alt="Medalha AWS Microcredential: Data Visualization Demonstrated"
+                        width="340"
+                        height="340"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                    <div class="certification-info">
+                        <p class="credential-kind">AWS · MICRO CREDENTIAL</p>
+                        <h3>AWS Data Visualization Demonstrated</h3>
+                        <p class="certification-issuer">AWS Training and Certification · 8 out. 2026</p>
+                        <p>Microcredencial prática relacionada à visualização de dados usando serviços da AWS.</p>
+                    </div>
+                </article>
+
+                <article class="certification-card">
+                    <img
+                        class="certification-badge microsoft-badge-image"
+                        src="img/microsoft-applied-skills-badge.png"
+                        alt="Emblema Microsoft Applied Skills"
+                        width="64"
+                        height="65"
+                        loading="lazy"
+                        decoding="async"
+                    >
+                    <div class="certification-info">
+                        <p class="credential-kind">MICROSOFT · APPLIED SKILLS</p>
+                        <h3>Get started developing agents in Microsoft Foundry</h3>
+                        <p class="certification-issuer">Microsoft · 12 out. 2026</p>
+                        <p>Credencial prática que avalia implantação de modelo, criação de agente e teste no Microsoft Foundry.</p>
+                        <a class="credential-link" href="https://learn.microsoft.com/en-us/credentials/applied-skills/get-started-developing-agents-in-microsoft-foundry/" target="_blank" rel="noopener noreferrer">Detalhes oficiais da credencial <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <section id="skills" aria-labelledby="skills-title">
             <h2 id="skills-title">Habilidades</h2>
+            <p class="section-intro">Tecnologias e ferramentas usadas em projetos pessoais, acadêmicos e profissionais.</p>
+            <div class="skills-summary" aria-label="Resumo textual das competências">
+                <p><strong>Linguagens:</strong> C#, JavaScript e TypeScript.</p>
+                <p><strong>Frontend:</strong> HTML, CSS e React.</p>
+                <p><strong>Backend e APIs:</strong> Node.js, Express e APIs REST.</p>
+                <p><strong>Bancos de dados:</strong> SQL, SQL Server, PostgreSQL, MySQL e MongoDB.</p>
+                <p><strong>Ferramentas:</strong> Git, Docker e CI/CD.</p>
+            </div>
             <div class="skills-grid">
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" loading="lazy">
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" loading="lazy">
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" loading="lazy">
-                    <p>JavaScript</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" loading="lazy">
-                    <p>TypeScript</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" loading="lazy">
-                    <p>React</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" loading="lazy">
-                    <p>Node.js</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="" loading="lazy">
-                    <p>C#</p>
-                </div>
-                <div class="skill">
-                    <span class="skill-symbol" aria-hidden="true">SQL</span>
-                    <p>SQL Server</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" loading="lazy">
-                    <p>PostgreSQL</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" loading="lazy">
-                    <p>MySQL</p>
-                </div>
-                <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" loading="lazy">
-                    <p>Git</p>
-                </div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>HTML</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>CSS</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>JavaScript</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>TypeScript</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>React</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>Node.js</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>C#</p></div>
+                <div class="skill"><span class="skill-symbol" aria-hidden="true">SQL</span><p>SQL Server</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>PostgreSQL</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>MySQL</p></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="" width="48" height="48" loading="lazy" decoding="async"><p>Git</p></div>
             </div>
         </section>
 
         <section id="contact" aria-labelledby="contact-title">
             <h2 id="contact-title">Contato</h2>
-            <p>Quer conversar sobre tecnologia ou algum projeto? Me encontre por aqui:</p>
+            <p>Quer conversar sobre tecnologia ou algum projeto? Me encontre por aqui ou baixe meu currículo em PDF.</p>
             <ul class="contact-links">
+                <li><a href="docs/curriculo-guilherme-canina.pdf" download>Baixar currículo (PDF) <span aria-hidden="true">↓</span></a></li>
                 <li><a href="mailto:caninaguilherme33@gmail.com">E-mail</a></li>
-                <li><a href="https://www.linkedin.com/in/guilhermecanina/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://github.com/GuilhermeCanina" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.instagram.com/gui7337_/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/guilhermecanina/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></li>
+                <li><a href="https://github.com/GuilhermeCanina" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></li>
+                <li class="contact-secondary"><a href="https://www.instagram.com/gui7337_/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></li>
             </ul>
         </section>
     </main>
 
-    <footer title="Psst... clica aqui">
+    <footer>
         <p>&copy; <span id="current-year">2026</span> Guilherme Canina. Todos os direitos reservados.</p>
-        <p>Feito com <span aria-label="amor">♥</span> por Guilherme Canina</p>
+        <button id="lain-toggle" class="footer-easter-egg" type="button" aria-expanded="false" aria-controls="lain-gif" title="Psst... clica aqui">Feito com <span aria-label="amor">♥</span> por Guilherme Canina <span class="footer-hint">· Psst... clique aqui</span></button>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

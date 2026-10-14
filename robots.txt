@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://guinino.dev.br/sitemap.xml
